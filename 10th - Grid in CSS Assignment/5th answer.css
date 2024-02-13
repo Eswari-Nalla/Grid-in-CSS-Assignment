@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px;
+    width: 80%;
+    height: 80vh;
+    padding: 20px;
+    background-color: rgb(208, 197, 197);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    justify-items: center; /* Here we have mentioned the items are center to grid*/
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.box:nth-child(even) {
+    width: 50%;
+    background-color: red;
+    justify-self: end; /* Here it overrides the property of justify-items.*/
+}
+
+.box:nth-child(odd) {
+    width: 75%;
+    background-color: blue;
+}

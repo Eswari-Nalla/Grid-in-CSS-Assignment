@@ -1,0 +1,14 @@
+In CSS, the grid-auto-rows property specifies the size of implicit grid rows.
+The grid-auto-columns property is a shorthand property for the grid-column-start and grid-column-end properties. 
+
+Here's some more information about these properties:
+
+grid-auto-rows:
+This property specifies the size of rows that are created without an explicit size. It sets the size of implicit rows and any other rows that have not been explicitly sized in the grid-template-rows property.
+The syntax for this property is 
+    grid-auto-rows: auto|max-content|min-content|length|percentage|minmax(min, max)|initial|inherit;
+
+grid-auto-columns
+The default value for this property is auto. The size of the columns is determined by the size of the container. 
+
+Note: grid-template-rows and grid-template-columns override these properties.

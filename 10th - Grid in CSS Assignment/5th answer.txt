@@ -1,0 +1,11 @@
+In CSS Grid, the justify-items property controls the alignment of grid items.
+The justify-self property overrides justify-items on individual items. 
+
+Here are some more details about justify-items and justify-self:
+
+justify-items: Defines the default alignment for all items in a grid container. It aligns grid items within their grid cell along the inline (horizontal) axis.
+
+justify-self: Aligns a single grid item along the horizontal axis within its grid cell.
+              It overrides the value of justify-items property set on the parent grid container for that specific grid item. 
+
+By default, justify-self inherits the value of justify-items.
